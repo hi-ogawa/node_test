@@ -3,6 +3,6 @@ module.exports = (grunt) ->
     coffee:
       compile:
         files:
-          'lib/test.js': ['src/*.coffee']
+          'lib/main.js': ['src/*.coffee']
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.registerTask 'default', ['coffee']
